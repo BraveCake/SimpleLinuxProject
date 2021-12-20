@@ -155,7 +155,7 @@ rename_file(path,argv[2],argv[3]);
          }
          if(!strcmp("-h",argv[1]))
          {
-            //man command here not added yet
+         system("man p5");   //man command here not added yet
          }
 exit(0);
     }
