@@ -1,0 +1,39 @@
+.\" Manpage for our project.
+.\" contact github.com/BraveCake to correct errors or typos.
+.TH  man 1 "Project5" "1.0"
+.SH NAME
+OS_Project_5
+.SH AUTHOR(S) :
+Ali - Mustafa - Nourhan - Korolous - Mohamed
+.SH SYNOPSIS
+p5 [OPTION]
+.br
+p5 1 [directory-Optional]
+.br
+p5 2 [command Name]
+.br
+p5 3 [Directory] [New Name]
+.br
+p5 4
+.SH About
+Simple Project with GUI Provide facilities to
+.br
+1- Search for all regular files ending with .conf
+.br
+2- Edit/Create manual Pages of any existing command
+.br
+3- Rename specific file in spefici path
+.br
+4- Disply only the ID of running processes (ID Only)
+.SH Examples
+p5 runs the project in GUI mode
+.sp 2
+p5 1 [directory] prints all the files which end with .conf in the given directory if no directory is given it will use the current directory
+.sp 2
+p5 2 [command] opens the manual page of the given command if the command does not have a man page it will create a one for it
+.sp 2
+p5 3 [directory] [new_name] renames a file to the new given name e.g p5 3 ~/Desktop/test.txt hello_world.txt
+.sp 2
+p5 4 displays a list of running processes' ID
+
+
