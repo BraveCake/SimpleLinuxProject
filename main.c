@@ -169,6 +169,8 @@ int main(int argc, char ** argv)
      user_data* data;
     gtk_init( &argc, &argv );
     char * glade =getenv("glade");
+    if(glade == NULL)
+     glade = "p5.glade";
      builder = gtk_builder_new_from_file(glade);
      data=g_slice_new(user_data);
    GW(window);
